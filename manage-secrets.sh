@@ -1,3 +1,3 @@
 # put your code here
 
-echo "running your code"
+aws s3 cp s3://arkmatix-cloud-vault/dev/chef/* ./.chef/
